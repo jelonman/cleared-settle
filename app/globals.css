@@ -31,11 +31,11 @@ textarea,input{caret-color:var(--green)}
 
 /* layout */
 .wk-grid{max-width:1240px;margin:26px auto 60px;padding:0 20px;display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:22px;align-items:start}
-.panel{background:var(--sheet);border:1px solid var(--rule);border-radius:18px;box-shadow:var(--shadow);padding:20px}
+.panel{min-width:0;background:var(--sheet);border:1px solid var(--rule);border-radius:18px;box-shadow:var(--shadow);padding:20px}
 .panel-h{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:0 0 14px}
 .panel-h h2{font:700 22px/1.1 var(--f-display),sans-serif;letter-spacing:-.02em;margin:0}
 .panel-h small{color:var(--ink2);font-size:13px}
-.stack{display:grid;gap:22px}
+.stack{display:grid;gap:22px;min-width:0}
 
 /* buttons */
 .bt{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:42px;padding:9px 16px;border-radius:11px;border:1px solid var(--rule);background:transparent;cursor:pointer;font-weight:600;font-size:15px;transition:transform .25s var(--ease),background .2s,border-color .2s,opacity .2s}
