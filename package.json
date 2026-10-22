@@ -1,0 +1,16 @@
+{
+  "name": "cleared-settle",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "description": "Cleared Settle: an AI settlement agent for resellers, built on the PayPal REST APIs.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": { "next": "15.5.9", "react": "19.1.1", "react-dom": "19.1.1" },
+  "devDependencies": { "@types/node": "22.10.2", "@types/react": "19.1.8", "@types/react-dom": "19.1.6", "typescript": "5.7.2", "vitest": "2.1.8" }
+}
